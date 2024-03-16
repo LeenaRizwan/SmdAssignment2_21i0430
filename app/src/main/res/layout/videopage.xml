@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    android:contentDescription="button"
+    android:orientation="vertical"
+    tools:context=".LogoPage1">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="550dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/back5" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:contentDescription="Maooo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#DEF8F8"
+                android:text="Slo-mo"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#DEF8F8"
+                android:text="Video"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-50dp"
+                android:backgroundTint="#BCE1E2"
+                android:text="Photo"
+                android:textColor="#157177"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#BCE1E2"
+                android:text="Square"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#BCE1E2"
+                android:text="Portrait"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button68"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/sun" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="550dp"
+        android:text="q"
+        android:backgroundTint="#157177">
+    </Button>
+
+    <Button
+        android:id="@+id/button80"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="takeVideo"
+        android:contentDescription="bhjdshbd"
+        android:textColor="#000000"></Button>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/gallicon" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="560dp"
+        app:srcCompat="@drawable/camicon" />
+
+</RelativeLayout>

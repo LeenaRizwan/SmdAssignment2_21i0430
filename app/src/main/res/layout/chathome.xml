@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    android:contentDescription="button"
+    android:orientation="vertical"
+    tools:context=".LogoPage1">
+
+    <ImageButton
+        android:id="@+id/button88"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chicon9"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="button"
+        ></ImageButton>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="45dp"
+        android:text="Chats"
+        android:textColor="#157177"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:text="My Community"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <HorizontalScrollView
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="Maooo">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/chicon1"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/chicon2"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/chicon3"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/chicon4"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/chicon5"></ImageView>
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="185dp"
+        android:text="All Messages"
+        android:textColor="#ABABAB"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/chicon6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="210dp"></ImageView>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/chicon7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="290dp"></ImageView>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/chicon8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="230dp"
+        android:text="John Cooper"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="310dp"
+        android:text="Jack Watson"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="390dp"
+        android:text="Emma Phillips"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="255dp"
+        android:text="1 New Message"
+        android:textColor="#DD0000"
+        android:textSize="13dp" />
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="335dp"
+        android:text="No New Messages"
+        android:textColor="#ABABAB"
+        android:textSize="13dp" />
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="415dp"
+        android:text="No New Messages"
+        android:textColor="#ABABAB"
+        android:textSize="13dp"/>
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="3dp"
+        android:background="@drawable/back2"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="10dp"></ImageView>
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="3dp"
+        android:background="@drawable/back2"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="10dp"></ImageView>
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="3dp"
+        android:background="@drawable/back2"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="10dp"></ImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button99"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="210dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="#157177"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="630dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="615dp"
+        android:text="+"
+        android:textColor="#157177"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+
+</RelativeLayout>

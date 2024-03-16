@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    android:contentDescription="button"
+    android:orientation="vertical"
+    tools:context=".LogoPage1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gr" />
+    <ImageButton
+        android:id="@+id/button77"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/chaticon6"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:text="John Cooper"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/button87"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chaticon4"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="30dp"></ImageButton>
+    <ImageButton
+        android:id="@+id/button12"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chaticon1"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="30dp"></ImageButton>
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/gr"></ImageView>
+
+    <ImageView
+        android:id="@+id/camerapic"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/back5" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:id="@+id/textv"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:gravity="bottom"
+        android:text="text \n\ntext1"></EditText>
+<EditText
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="540dp"
+    android:layout_marginLeft="80dp"
+    android:id="@+id/et"
+    android:textSize="20dp"
+    android:textColor="#DFDFDF"
+    android:text="Type Something . . ."></EditText>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chaticon3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"></ImageView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chaticon7"
+        android:id="@+id/send"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="540dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:onClick="takePhoto"
+        android:background="@drawable/camcam2"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/cam"
+        android:layout_marginTop="540dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="#157177"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="630dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="615dp"
+        android:text="+"
+        android:textColor="#157177"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+
+</RelativeLayout>

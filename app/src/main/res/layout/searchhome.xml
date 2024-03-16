@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    android:contentDescription="button"
+    android:orientation="vertical"
+    tools:context=".LogoPage1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="-120dp"
+        app:srcCompat="@drawable/mm" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:text="Let's Find ..."
+        android:textColor="#157177"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/button90"
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="55dp"
+    android:layout_marginLeft="30dp"
+    ></de.hdodenhof.circleimageview.CircleImageView>
+
+    <EditText
+        android:id="@+id/imageView29"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitXY"
+        android:text="Search"
+        android:textColor="#ABABAB"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <ImageButton
+        android:id="@+id/button80"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="154dp"
+        android:contentDescription="button"
+        android:background="@android:drawable/ic_menu_search"></ImageButton>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Recent searches"
+        android:textColor="#157177"
+        android:textSize="16dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="10dp"></TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Mentor 1"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"></TextView>
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Mentor 2"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="10dp"></TextView>
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="265dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Mentor 3"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="10dp"></TextView>
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+
+<ImageView
+    android:layout_width="450dp"
+    android:layout_height="400dp"
+    android:layout_marginTop="320dp"
+    android:background="@drawable/mmmm"></ImageView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Browse Catagories"
+        android:textColor="#157177"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="50dp"></TextView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sicon1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="380dp"></ImageView>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="395dp"
+        android:textStyle="bold"
+        android:text="Entrepeneurship"
+        android:textSize="20dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sicon4"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="390dp"></ImageView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sicon2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="460dp"></ImageView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="475dp"
+        android:textStyle="bold"
+        android:text="Personal Growth"
+        android:textSize="20dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sicon4"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="470dp"></ImageView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sicon3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="540dp"></ImageView>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="555dp"
+        android:textStyle="bold"
+        android:text="Education"
+        android:textSize="20dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sicon4"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="550dp"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="#157177"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="630dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="615dp"
+        android:text="+"
+        android:textColor="#157177"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+
+
+</RelativeLayout>

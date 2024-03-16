@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957707015239",
+    "project_id": "leenarizwan-i210430",
+    "storage_bucket": "leenarizwan-i210430.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957707015239:android:4162ae92e3808ff7dd8d62",
+        "android_client_info": {
+          "package_name": "com.LeenaRizwan.i210430"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf1VwNCeDl9I0nRunq5mnBiWDIxMePbl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

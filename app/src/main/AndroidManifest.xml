@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditProf"
+            android:exported="false" />
+        <activity
+            android:name=".BookedSess"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileHome"
+            android:exported="false" />
+        <activity
+            android:name=".VidC"
+            android:exported="false" />
+        <activity
+            android:name=".ChatJohn"
+            android:exported="false" />
+        <activity
+            android:name=".CommChat"
+            android:exported="false" />
+        <activity
+            android:name=".VC"
+            android:exported="false" />
+        <activity
+            android:name=".ChatHome"
+            android:exported="false" />
+        <activity
+            android:name=".BookSession"
+            android:exported="false" />
+        <activity
+            android:name=".Reveiw"
+            android:exported="false" />
+        <activity
+            android:name=".AcctPage"
+            android:exported="false" />
+        <activity
+            android:name=".SearchResults"
+            android:exported="false" />
+        <activity
+            android:name=".SearchHome"
+            android:exported="false" />
+        <activity
+            android:name=".Notificationpage"
+            android:exported="false" />
+        <activity
+            android:name=".Videopage"
+            android:exported="false" />
+        <activity
+            android:name=".Camerpage"
+            android:exported="false" />
+        <activity
+            android:name=".AddMentor"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".NumericalCode5"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp4"
+            android:exported="false" />
+        <activity
+            android:name=".NewPassword6"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword3"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
+            android:name=".LogoPage1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

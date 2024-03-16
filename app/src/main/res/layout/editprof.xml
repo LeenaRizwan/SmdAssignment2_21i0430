@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DEF8F8"
+    tools:context=".LogoPage1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:background="@color/BackdropBlue"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gr" />
+<ImageButton
+    android:id="@+id/button76"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/accicon1"
+    android:layout_marginTop="50dp"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Edit Profile" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#0F2A19"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="160dp"></Button>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/prof2"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="170dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:text="Name" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="215dp"
+        android:textSize="17dp"
+        android:inputType="text"
+        android:textColor="#BABABA"
+        android:text="Enter Name" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:text="Email" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="275dp"
+        android:textSize="17dp"
+        android:inputType="text"
+        android:textColor="#BABABA"
+        android:text="Enter Email" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:text="Contact Number" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textSize="17dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="335dp"
+        android:inputType="text"
+        android:textColor="#BABABA"
+        android:text="Enter Contact Number" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:text="Country" />
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="395dp"
+        android:textSize="17dp"
+        android:inputType="text"
+        android:textColor="#BABABA"
+        android:text="Select Country" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:text="City" />
+
+    <ImageView
+        android:id="@+id/imageView01"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame" />
+
+    <EditText
+        android:id="@+id/editTextText81"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="17dp"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="455dp"
+        android:inputType="text"
+        android:textColor="#BABABA"
+        android:text="Select City" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#157177"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Update Profile" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    android:contentDescription="button"
+    android:orientation="vertical"
+    tools:context=".LogoPage1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gr" />
+
+    <ImageButton
+        android:id="@+id/button96"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/accicon1"
+        android:contentDescription="Button"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:text="John Cooper"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="115dp"
+        android:text="4.8"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/accicon2"></ImageView>
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/back2"></ImageView>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:text="$1500/Session"
+        android:textColor="#FFBB00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/books1"
+        android:layout_marginLeft="230dp"
+        android:contentDescription="button"
+        android:layout_marginTop="150dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/books2"
+        android:layout_marginLeft="280dp"
+        android:contentDescription="button"
+        android:layout_marginTop="150dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/books3"
+        android:layout_marginLeft="330dp"
+        android:contentDescription="button"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Dec"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="2023"
+        android:textColor="#157177"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+    android:text="M        T        W        T        F        S        S"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="29      30      31"
+        android:textColor="#ABABAB"
+        android:textSize="20dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="                                  1        2        3        4"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="5         6         7         8        9      10       11"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="12      13      14       15      16     17      18"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="19      20      21       22      23     24      25"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="26      27      28       29      30"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="                                                        1       2"
+        android:textColor="#ABABAB"
+        android:textSize="20dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="30dp"></TextView>
+    <TextView
+        android:layout_width="250dp"
+        android:textSize="16dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:text="Available Time Slots:"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="#157177"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="630dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="615dp"
+        android:text="+"
+        android:textColor="#157177"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/BackdropBlue" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#157177"
+        android:text="Book a Session"
+        android:layout_marginLeft="110dp"
+        android:contentDescription="button"
+        android:layout_marginTop="550dp"></Button>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button99"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="110dp"
+        android:contentDescription="button"
+        android:layout_marginTop="550dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/back2"></ImageView>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="23dp"
+        android:textColor="#000000"
+        android:text="10.00AM"></TextView>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="145dp"
+        android:background="@drawable/back4"></ImageView>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="155dp"
+        android:textSize="23dp"
+        android:textColor="#FFFFFF"
+        android:text="11.00AM"></TextView>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="275dp"
+        android:background="@drawable/back2"></ImageView>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="285dp"
+        android:textSize="23dp"
+        android:textColor="#FFFFFF"
+        android:text="12.00PM"></TextView>
+
+
+</RelativeLayout>
